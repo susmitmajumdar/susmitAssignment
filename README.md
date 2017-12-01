@@ -1,6 +1,10 @@
-# CarouselAssignment
+# Angular Carousel
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.5.
+
+## Concept
+
+The purpose of this Carousel is to showcase dynamic content comprising of images and data. The data can be shown as a caption or independent sections with respect to images. The Carousel have auto slide and timer functionality which are configurable. The previous and next buttons assists user to move to the previous or next slide immediately.
 
 ## Development server
 
