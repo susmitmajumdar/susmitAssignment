@@ -1,0 +1,15 @@
+<div class="carouselContainer">  
+    <div class="fade" *ngFor="let imgdata of imageData; let i = index">
+      <div *ngIf="i == slideIndex" >
+          <img src="{{imgdata.url}}" style="width:100%"/>
+          <div class="captionText">
+             {{ imgdata.caption }}
+          </div>
+      </div>
+    </div>
+    <a class="prev" (click)="prevSlide()">&#10094;</a>
+    <a class="next" (click)="nextSlide()">&#10095;</a>
+</div>  
+<div class="dotContainer">
+  <span class="dot" *ngFor="let imgdata of imageData; let i = index" (click)="currentSlide(i)" [ngClass] = "i == slideIndex ? ' active' : '' "></span> 
+</div>

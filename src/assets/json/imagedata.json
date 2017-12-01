@@ -1,0 +1,22 @@
+[
+  {
+  "url":"assets/images/home1.jpg",
+  "name":"home1",
+  "caption":"Jet Set For A New Destination"
+  },
+  {
+    "url":"assets/images/home2.jpg",
+    "name":"home2",
+    "caption":"Experience The Unseen Beauty"
+  },
+  {
+    "url":"assets/images/home3.jpg",
+    "name":"home3",
+    "caption":"Plan For A Holiday"
+  },
+  {
+    "url":"assets/images/home4.jpg",
+    "name":"home4",
+    "caption":"Booking Is Easier"
+  }
+]
